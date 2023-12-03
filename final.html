@@ -3,235 +3,487 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylefinal.css">
+    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>SST Contest</title>
 </head>
 <body>
 
-    <div class="container">
+    <section class="container" id="home">
 
 
         <aside class="header">
 
-            <div class="nav-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#54769a" class="bi bi-house-door" viewBox="0 0 16 16">
-                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
-              </svg>
-                <div class="nav-data">
+            <a class="nav-btn" href="#home">
+                <i class="fa-solid fa-house"></i>
+                <section class="nav-data">
                   Home
-                </div>
-              </div>
+                </section>
+            </a>
 
-              <div class="nav-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
-                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
-                </svg>
-                <div class="nav-data">
+              <a href="#about" class="nav-btn">
+                <i class="fa-solid fa-user"></i>
+                <section class="nav-data">
+                  About
+                </section>
+            </a>
+
+
+              <a href="#resume" class="nav-btn">
+                <i class="fa-regular fa-file"></i>
+                <section class="nav-data">
                   Resume
-                </div>
-              </div>
+                </section>
+            </a>
 
-              <div class="nav-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#54769a" class="bi bi-house-door" viewBox="0 0 16 16">
-                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
-              </svg>
-                <div class="nav-data">
-                  Home
-                </div>
-              </div>
-
-              <div class="nav-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-postcard" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm7.5.5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0zM2 5.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5M10.5 5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM13 8h-2V6h2z"/>
-                </svg>
-                <div class="nav-data">
+              <a href="#portfolio" class="nav-btn">
+                <i class="fa-regular fa-note-sticky"></i>
+                <section class="nav-data">
                   Portfolio
-                </div>
-              </div>
+                </section>
+            </a>
 
-              <div class="nav-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-hdd-stack" viewBox="0 0 16 16">
-                    <path d="M14 10a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1zM2 9a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2z"/>
-                    <path d="M5 11.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M14 3a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/>
-                    <path d="M5 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
-                </svg>
-                <div class="nav-data">
+              <a href="#services" class="nav-btn">
+                <i class="fa-brands fa-servicestack"></i>
+                <section class="nav-data">
                   Services
-                </div>
-              </div>
+                </section>
+            </a>
 
-              <div class="nav-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
-                </svg>
-                <div class="nav-data">
+              <a href="#contact" class="nav-btn">
+                <i class="fa-regular fa-envelope"></i>
+                <section class="nav-data">
                   Contact
-                </div>
-              </div>
+                </section>
+            </a>
 
         </aside>
             
         <section class="head-data">
-            <div class="hero">
-                <div class="hero-name">
-                    Harry Potter
-                </div>
-                <div class="hero-desc">
-                    I'm a <span>wizard</span>
-                </div>
+            <section class="hero">
+                <section class="hero-name">
+                    Harry
+                </section>
+                <section class="hero-desc">
+                    I'm a <span>Developer</span>
+                </section>
 
-                <div class="socials">
+                <section class="socials">
 
-                    <div class="x">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
-                        </svg>
-                    </div>
+                    <section class="x">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </section>
 
-                    <div class="fb">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                        </svg>
-                    </div>
+                    <section class="fb">
+                        <i class="fa-brands fa-facebook"></i>
+                    </section>
 
-                    <div class="insta">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-                        </svg>
-                    </div>
+                    <section class="insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </section>
 
-                    <div class="skype">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-skype" viewBox="0 0 16 16">
-                            <path d="M4.671 0c.88 0 1.733.247 2.468.702a7.423 7.423 0 0 1 6.02 2.118 7.372 7.372 0 0 1 2.167 5.215c0 .344-.024.687-.072 1.026a4.662 4.662 0 0 1 .6 2.281 4.645 4.645 0 0 1-1.37 3.294A4.673 4.673 0 0 1 11.18 16c-.84 0-1.658-.226-2.37-.644a7.423 7.423 0 0 1-6.114-2.107A7.374 7.374 0 0 1 .529 8.035c0-.363.026-.724.08-1.081a4.644 4.644 0 0 1 .76-5.59A4.68 4.68 0 0 1 4.67 0zm.447 7.01c.18.309.43.572.729.769a7.07 7.07 0 0 0 1.257.653c.492.205.873.38 1.145.523.229.112.437.264.615.448.135.142.21.331.21.528a.872.872 0 0 1-.335.723c-.291.196-.64.289-.99.264a2.618 2.618 0 0 1-1.048-.206 11.44 11.44 0 0 1-.532-.253 1.284 1.284 0 0 0-.587-.15.717.717 0 0 0-.501.176.63.63 0 0 0-.195.491.796.796 0 0 0 .148.482 1.2 1.2 0 0 0 .456.354 5.113 5.113 0 0 0 2.212.419 4.554 4.554 0 0 0 1.624-.265 2.296 2.296 0 0 0 1.08-.801c.267-.39.402-.855.386-1.327a2.09 2.09 0 0 0-.279-1.101 2.53 2.53 0 0 0-.772-.792A7.198 7.198 0 0 0 8.486 7.3a1.05 1.05 0 0 0-.145-.058 18.182 18.182 0 0 1-1.013-.447 1.827 1.827 0 0 1-.54-.387.727.727 0 0 1-.2-.508.805.805 0 0 1 .385-.723 1.76 1.76 0 0 1 .968-.247c.26-.003.52.03.772.096.274.079.542.177.802.293.105.049.22.075.336.076a.6.6 0 0 0 .453-.19.69.69 0 0 0 .18-.496.717.717 0 0 0-.17-.476 1.374 1.374 0 0 0-.556-.354 3.69 3.69 0 0 0-.708-.183 5.963 5.963 0 0 0-1.022-.078 4.53 4.53 0 0 0-1.536.258 2.71 2.71 0 0 0-1.174.784 1.91 1.91 0 0 0-.45 1.287c-.01.37.076.736.25 1.063z"/>
-                        </svg>
-                    </div>
+                    <section class="skype">
+                        <i class="fa-brands fa-skype"></i>
+                    </section>
 
-                    <div class="linkedin">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/>
-                        </svg>
-                    </div>
+                    <section class="linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </section>
 
-                </div>
-            </div>
+                </section>
+            </section>
         </section>
-      </div>
+    </section>
 
+    <section class="container2" id="about">
 
-      <div class="Coontainer">
-        <div class="right-section">
-           <h1>About</h1>
-           <p class="about-text">Lorem ipsum voluptates voluptas a quequuntur asperiores saepe sed explicabo soluta. Sunt, neque.First sentence about the topic.</p>
-           <div class="additional-info">
-             <div class="left-section">
-                 <img src="profile-img.jpg" alt="Image" class="first">
-                 <div>
-                     <p class="first">♦Age:19</p>
-                     <p>♦Phone_Number:8748758758</p>
-                     <p>♦Birthday:09/12/1998</p>
-                     <p>♦Degree:Master</p>
-                     <p>♦City:New York</p>
-                     <p>♦FreeLance:Available</p>
-                 </div>
-             </div>
-             
-             
-           </div>
-         </div>
-       </div>
-
-
-
-       <div class="resume">
-        <header>
-          <h1 class="uniq">RESUME</h1>
-        <hr>
-        </header>
-        <section class="about">
-          <h2>About Me</h2>
-          <p>I am a passionate web developer with expertise in HTML, CSS, JavaScript, and various web technologies. I have experience building responsive and user-friendly websites.</p>
+        <section class="head-ab">
+            ABOUT
         </section>
-        <section class="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <!-- Add more skills as needed -->
-          </ul>
+
+        <section class="text-ab">
+            <section>
+               Lorem ipsum dolor, sit amet consectetur oluptatem illo a necessitatibus, quo eius consequuntur, voluptatibus obcaecati libero saepe quod!
+            </section>
         </section>
-        <section class="experience">
-          <h2>Experience</h2>
-          <div class="job">
-            <h3>Web Developer - ABC Company</h3>
-            <p class="job-date">January 2020 - Present</p>
-            <p>Developed and maintained company websites, implemented new features, and optimized site performance.</p>
-          </div>
-          <!-- Add more job experiences as needed -->
+
+        <section class="aur-data">
+            <section class="iska-data">
+                <section class="profile"></section>
+                <section class="me">
+                    <section class="mehead">UI/UX Designer & Web Developer</section>
+                    <section class="more-data">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ut tecto at dolor?</section>
+                    <ul>
+                        <section class="left">
+                            <li>Brithday : 07/2/2003</li>
+                            <li>Website: www.google.com</li>
+                            <li>Phone: +91-8467740235</li>
+                            <li>City: Guwahati</li>
+                        </section>
+                        <section class="right">
+                            <li>Age : 19</li>
+                            <li>Degree: B.sc</li>
+                            <li>Email: xyz@gmail.com</li>
+                            <li>Freelance: Available</li>
+                        </section>
+                    </ul>
+
+                    <section class="even-more-content">
+                       Lorem, ipsum dolor sit amet consecte eos magni quidematem repellat quo. Natus atque ad recusandae praesentium asperiores?
+                    </section>
+                </section>
+            </section>
         </section>
-        <section class="education">
-          <h2>Education</h2>
-          <div class="school">
-            <h3>Bachelor's in Computer Science - XYZ University</h3>
-            <p class="education-date">Graduated: May 2019</p>
-          </div>
+    </section>
+
+    <section class="container3" id="resume">
+        <section class="head-ab">
+            RESUME
         </section>
-      </div>
+        <section class="text-ab">
+            <section>
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus magnam unde officiis odio eligendi nemo modi natus eveniet. Hic ullam veritatis quisquam dignissimos numquam voluptates odit doloribus magni earum ipsum.
+            </section>
+        </section>
 
 
 
+        <section class="holder">
+            <section class="resume-container">
+                <section class="rcleft">
+                  
+                  
+                  <section class="prof-head" style="font-weight: 600; color: #444d54;">
+                    Education
+                  </section>
+                  
+                  <section class="prof-desc-1" style="color: #2c61a8;">B.tech</section>
+                  <section class="prof-date">1998-2000</section>
+                  <section class="ins">MIT</section>
+                  <section class="insdesc">Tthere is nothiong i can writ about iy</section>
+                  
+                  
+                  
+                  <section class="prof-desc-1" style="color: #2c61a8;">Bachelor</section>
+                  <section class="prof-date">2018-2022</section>
+                  <section class="ins">MIT</section>
+                  <section class="insdesc">TI dont km hd ehgehuh ehdeu hbehdedb.</section>
+                </section>
+                <section class="rcright">
+                  <section class="prof-head" style="font-weight: 600; color: #444d54;">
+                    Professional Experience
+                  </section>
+                  <section class="prof-desc-1" style="color: #2c61a8;">
+                    SENIOR Developer
+                  </section>
+                  <section class="prof-date">
+                    2003-present
+                  </section>
+                  <section class="prof-list">
+                    Indonesia
+              
+                    <section class="ul">
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odit, fuga adip</li>
+                      <li> deleniti vel qui vero explicabo autem corrupti, repudiandae ea amet. </li>
+                      <li>isci reiciendisExcepturi repellat repudiandae nulla et tempore voluptate?</li>
+                    </section>
+              
+                  </section>
+                </section>
+            </section>
+        </section>
+
+    </section>
+
+    <section class="container4" id="portfolio">
+
+        <section class="head-ab">
+            PORTFOLIO
+        </section>
+
+        <section class="text-ab">
+            <section>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero labore ratione cum expedita.
+            </section>
+        </section>
+
+        <section class="sub-nav">
+            <section class="entry">All</section>
+            <section class="entry">App</section>
+            <section class="entry">Card</section>
+            <section class="entry">Web</section>
+        </section>
+
+        <section class="port-holder">
+            <section class="ph1" style="background: url(portfolio-1.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></section>
+            <section class="ph1" style="background: url(portfolio-2.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></section>
+            <section class="ph1" style="background: url(portfolio-3.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></section>
+            <section class="ph1" style="background: url(portfolio-4.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></section>
+            <section class="ph1" style="background: url(portfolio-5.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></section>
+            <section class="ph1" style="background: url(portfolio-6.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></section>
+            <section class="ph1" style="background: url(portfolio-7.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></section>
+            <section class="ph1" style="background: url(portfolio-8.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></section>
+            <section class="ph1" style="background: url(portfolio-9.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></section>
+            <section class="ph1" style="background: url(portfolio-10.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;"></section>
 
 
+        </section>
+
+    </section>
+
+    <section class="container5" id="services">
 
 
-      <nav class="navbar">
-        <input type="radio" id="all" name="filter" class="nav-item" checked>
-        <label for="all" class="nav-label">All</label>
+        <section class="head-ab" style="margin-top: 5%;">
+            SERVICES
+        </section>
+
+        <section class="text-ab" style="margin-top: 3%;">
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iure repellat magnam rem quas animi delectus? Laboriosam animi quisquam. Natus.
+            </section>
+        </section>
+
+        <section class="card-container">
+            <section class="card">
+                <svg width="86" height="86" viewBox="0 0 132 143" fill="#38a6ff" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M123.008 70.2289C123.008 109.015 151.514 142.361 107.017 142.361C62.5191 142.361 0 150.149 0 111.363C0 72.5766 43.4529 0 87.9505 0C132.448 0 123.008 31.4425 123.008 70.2289Z"/>
+                    </svg>
+              <section class="ch">
+                heuichruicfh
+              </section>
+              <section class="cd">
+                ydgey yeydhy tfwrdsu ngbtg bhdhw3sbhdy3 uheuh
+              </section>
+            </section>
+              
+              
+              <section class="card">
+            
+            <svg width="86" height="86" viewBox="0 0 120 148" fill="#f49d6a" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.0372 88.9809C1.00859 55.9899 -10.2148 30.2913 18.0308 15.1639C24.6959 11.5943 32.5305 14.3011 39.3189 17.6301C71.987 33.6505 104.492 -22.4301 115.658 10.9701C127.955 47.7555 109.753 130.364 67.5514 144.472C25.3494 158.58 24.3341 125.766 12.0372 88.9809Z" fill="#f49d6a"/>
+            </svg>
+            
+              <section class="ch">
+                AAm bhagan
+              </section>
+              <section class="cd">
+                ydgey yeydhy tfwrdsu ngbtg bhdhw3sbhdy3 uheuh
+              </section>
+            </section>
+              
+              
+              <section class="card">
+            <svg width="86" height="86" viewBox="0 0 132 143" fill="#e3005d" xmlns="http://www.w3.org/2000/svg">
+            <path d="M123.008 70.2289C123.008 109.015 151.514 142.361 107.017 142.361C62.5191 142.361 0 150.149 0 111.363C0 72.5766 43.4529 0 87.9505 0C132.448 0 123.008 31.4425 123.008 70.2289Z"/>
+            </svg>
+              <section class="ch">
+                MIT
+              </section>
+              <section class="cd">
+                ydgey yeydhy tfwrdsu ngbtg bhdhw3sbhdy3 uheuh
+              </section>
+            </section>
+              
+              
+              <section class="card">
+            
+            <svg width="86" height="86" viewBox="0 0 120 148" fill="#ffb01a" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.0372 88.9809C1.00859 55.9899 -10.2148 30.2913 18.0308 15.1639C24.6959 11.5943 32.5305 14.3011 39.3189 17.6301C71.987 33.6505 104.492 -22.4301 115.658 10.9701C127.955 47.7555 109.753 130.364 67.5514 144.472C25.3494 158.58 24.3341 125.766 12.0372 88.9809Z" fill="#ffb01a"/>
+            </svg>
+            
+              <section class="ch">
+                IIT
+              </section>
+              <section class="cd">
+                ydgey yeydhy tfwrdsu ngbtg bhdhw3sbhdy3 uheuh
+              </section>
+            </section>
+              
+              <section class="card">
+            <svg width="86" height="86" viewBox="0 0 132 143" fill="#ff7f5a" xmlns="http://www.w3.org/2000/svg">
+            <path d="M123.008 70.2289C123.008 109.015 151.514 142.361 107.017 142.361C62.5191 142.361 0 150.149 0 111.363C0 72.5766 43.4529 0 87.9505 0C132.448 0 123.008 31.4425 123.008 70.2289Z"/>
+            </svg>
+              <section class="ch">
+              Mexico
+              </section>
+              <section class="cd">
+                ydgey yeydhy tfwrdsu ngbtg bhdhw3sbhdy3 uheuh
+              </section>
+            </section>
+              
+              <section class="card">
+            
+            <svg width="86" height="86" viewBox="0 0 120 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.0372 88.9809C1.00859 55.9899 -10.2148 30.2913 18.0308 15.1639C24.6959 11.5943 32.5305 14.3011 39.3189 17.6301C71.987 33.6505 104.492 -22.4301 115.658 10.9701C127.955 47.7555 109.753 130.364 67.5514 144.472C25.3494 158.58 24.3341 125.766 12.0372 88.9809Z" fill="#56d0c8"/>
+            </svg>
+            
+              <section class="ch">
+                hungary
+              </section>
+              <section class="cd">
+                ydgey yeydhy tfwrdsu ngbtg bhdhw3sbhdy3 uheuh
+              </section>
+            </section>
+            
+            </section>
+
+
+    </section>
+
+    <section class="container-test" id="testmonials">
+        <section class="testi-head">
+            TESTIMONIALS
+        </section>
+
+        <section class="monas">
+            <section class="carousel-container">
+            <section class="carousel-inner">
+              <section class="testimonial">
+                <section class="img-cnt" style="background: url(testimonials-1.jpg); background-position: center; background-size: contain;"></section>
+                <section class="name">Vinay</section>
+                <section class="pos">CEO</section>
+                <section class="review">may be something is wrong I dont know what</section>
+              </section>
+
+              <section class="testimonial">
+                <section class="img-cnt" style="background: url(testimonials-2.jpg); background-position: center; background-size: contain;"></section>
+                <section class="name">Captain</section>
+                <section class="pos">COO</section>
+                <section class="review">may be something is wrong I dont know what</section>
+              </section>
+
+              <section class="testimonial">
+                <section class="img-cnt" style="background: url(testimonials-3.jpg); background-position: center; background-size: contain;"></section>
+                <section class="name">Why</section>
+                <section class="pos">CEO</section>
+                <section class="review">TLets say its okay</section>
+              </section>
+            </section>
+          
+            <section class="navigation">
+              <button class="arrow" onclick="prevSlide()">❮</button>
+              <button class="arrow" onclick="nextSlide()">❯</button>
+            </section>
+          </section>
+        </section>
+
+
+    </section>
     
-        <input type="radio" id="app" name="filter" class="nav-item">
-        <label for="app" class="nav-label">App</label>
-    
-        <input type="radio" id="card" name="filter" class="nav-item">
-        <label for="card" class="nav-label">Card</label>
-    
-        <input type="radio" id="wave" name="filter" class="nav-item">
-        <label for="wave" class="nav-label">Wave</label>
-    
-        <div class="highlight"></div>
-      </nav>
-    
-      <div class="portfolio">
-        <div class="item all">
-          <img src="portfolio-1.jpg" alt="All Item 1">
-        </div>
-        <div class="item all">
-          <img src="portfolio-2.jpg" alt="All Item 2">
-        </div>
-        <div class="item app">
-          <img src="portfolio-3.jpg" alt="App Item">
-        </div>
-        <div class="item card">
-          <img src="portfolio-4.jpg" alt="Card Item">
-        </div>
-        <div class="item wave">
-          <img src="portfolio-5.jpg" alt="Wave Item">
-        </div>
-        
-    </div>
+    <section class="container6" id="contact">
+        <section class="head-ab">
+            CONTACT
+        </section>
+
+        <section class="cnt">
+            <section class="ct-links">
+
+                <section class="link">
+                    <section class="link-icon">
+                        <i class="fa-solid fa-map-pin"></i>
+                    </section>
+                    <section class="text">
+                        <section class="link-text">
+                            Location
+                        </section>
+                        <section class="link-desc">
+                            Dharamshala, Himachal Pradesh, India
+                        </section>
+                    </section>
+                </section>
 
 
+                <section class="link">
+                    <section class="link-icon">
+                        <i class="fa-regular fa-envelope"></i>
+                    </section>
+                    <section class="text">
+                        <section class="link-text">
+                            Email
+                        </section>
+                        <section class="link-desc">
+                            vinay.23@gmail.com
+                        </section>
+                    </section>
+                </section>
 
-    <footer>
-      <div class="foot_1">
-        <h1>Harry</h1>
-      </div>
 
+                <section class="link">
+                    <section class="link-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </section>
+                    <section class="text">
+                        <section class="link-text">
+                            Call
+                        </section>
+                        <section class="link-desc">
+                           +91 (701)84-40235
+                        </section>
+                    </section>
+                </section>
+
+            </section>
+            <section class="ct-forms">
+
+                <section class="ig-1">
+                    <input type="text" name="" id="" placeholder="Your Name">
+                    <input type="text" name="" id="" placeholder="Your Email">
+                </section>
+
+                <section class="ig-2">
+                    <input type="text" name="" id="" placeholder="Subject">
+                </section>
+
+                <section class="ig-3">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                </section>
+
+                <section class="submitter">
+                    <section class="submit-btn">
+                        Send Message
+                    </section>
+                </section>
+
+            </section>
+        </section>
+    </section>
+    
+    <footer class="footer">
+
+        <section class="name">Harry</section>
+        <section class="desc">may be I will get some marks </section>
+
+        <section class="ftsocials">
+
+            <section class="social">
+                <i class="fa-brands fa-twitter"></i>
+            </section>
+
+            <section class="social">
+                <i class="fa-brands fa-facebook"></i>
+            </section>
+
+            <section class="social">
+                <i class="fa-brands fa-instagram"></i>
+            </section>
+
+            <section class="social">
+                <i class="fa-brands fa-skype"></i>
+            </section>
+
+            <section class="social">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </section>
+        </section>
+        <section class="copyright">
+            &copy; 2023 Harry All rightys reserved.
+        </section>
+
+        <section class="designed-by">
+             <span style="color: rgb(59, 149, 184);">Vinay</span>
+        </section>
     </footer>
-
- 
-    
-    
 </body>
+
 </html>
