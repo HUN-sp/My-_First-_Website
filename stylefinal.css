@@ -156,7 +156,7 @@ body {
 }
 
 .profile {
-    background: url(profile-img.jpg);
+    background: url('images/profile-img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
