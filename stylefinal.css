@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    background-image: url(profile-img.jpg);
+    background-image: url('profile-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
